@@ -36,7 +36,9 @@
 		</div><!-- /brand -->
 	
 		<nav role="navigation" class="site-navigation main-navigation">
-			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+				<a href="http://www.linkedin.com/in/#"><img src="<?php bloginfo('template_directory'); ?>/images/icons/services/linkedin.png" alt="" width="16" height="16"></a>
+				<a href="http://twitter.com/#"><img src="<?php bloginfo('template_directory'); ?>/images/icons/services/twitter.png" alt="" width="16" height="16"></a>
+				<a href="http://www.github.com/#"><img src="<?php bloginfo('template_directory'); ?>/images/icons/services/github.png" alt="" width="16" height="16"></a>
 		</nav><!-- .site-navigation .main-navigation -->
 		
 		<div class="clear"></div>
